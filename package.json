@@ -1,0 +1,24 @@
+{
+  "name": "azure-functions-bolt",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@slack/bolt": "^2.1.1",
+    "@slack/types": "^1.7.0",
+    "@types/tsscmp": "^1.0.0",
+    "crypto": "^1.0.1",
+    "querystring": "^0.2.0",
+    "tsscmp": "^1.0.6"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.2-beta2",
+    "typescript": "^3.3.3"
+  }
+}
