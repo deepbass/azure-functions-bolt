@@ -10,7 +10,7 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@slack/bolt": "^2.1.1",
+    "@slack/bolt": "^3.12.2",
     "@slack/types": "^1.7.0",
     "@types/tsscmp": "^1.0.0",
     "crypto": "^1.0.1",
